@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(#24373d, #8c94a1);
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  margin-left: 10px;
+  font-size: 50px;
+  font-family: "Mochiy Pop One", sans-serif;
+  letter-spacing: 0.2em;
+  color: darkgray;
+}
+
+h1 b {
+  color: #61868f;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #967d6e, 0 0 0.5em #967d6e, 0 0 0.1em #967d6e, 0 10px 3px #000;
+}
+
+h1 b {
+  animation: blink linear infinite 3s;
+}
+
+@keyframes blink {
+  50% {
+    color: #bebebc;
+  }
+}
+hr {
+  border: 5px solid #24373d;
+  background-color: #24373d;
+  height: 25px;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  color: black;
+}
+
+h2 {
+  font-family: "Comforter Brush";
+  font-size: 50px;
+  color: #24373d;
+}
+
+.text-letter {
+  color: #24373d;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+button {
+  font-style: normal;
+  border: 3px solid #8c94a1;
+  border-radius: 20px;
+  width: 300px;
+  height: 50px;
+  bottom: 20px;
+  position: relative;
+  cursor: pointer;
+  background-image: linear-gradient(#5d6a74, #8c94a1);
+}
+
+button a {
+  text-decoration: none;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: all 0.5s;
+  padding-left: 1.8rem;
+}
